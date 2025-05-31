@@ -6,7 +6,7 @@ import requests
 
 load_dotenv()
 
-openai.api_key = "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"
+openai.api_key = "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"
 openai.base_url = "https://openrouter.ai/api/v1"
 
 app = Flask(__name__, static_folder="../frontend")
