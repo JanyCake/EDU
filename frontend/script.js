@@ -4,7 +4,7 @@ async function askQuestion() {
     responseDiv.textContent = 'Загрузка...';
 
     try {
-        const res = await fetch('http://localhost:5000/api/question', {
+        const res = await fetch('https://edu-9pdm.onrender.com', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ question })
