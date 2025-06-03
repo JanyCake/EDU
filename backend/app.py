@@ -1,10 +1,7 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
-from dotenv import load_dotenv
 import openai
 import requests
-
-load_dotenv()
 
 openai.api_key = "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"
 openai.base_url = "https://openrouter.ai/api/v1"
